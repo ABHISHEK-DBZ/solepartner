@@ -45,3 +45,4 @@ export const siteConfig: SiteConfig = {
     isDevnetBuild: true,
   },
 };
+
