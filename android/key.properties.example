@@ -1,0 +1,9 @@
+# Production Android Keystore Signing Configuration Example
+# Copy this file to `android/key.properties` and populate with real release credentials.
+# NEVER commit `key.properties` or `.jks` files to version control!
+
+storePassword=YOUR_KEYSTORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=solepartner-release-key
+storeFile=../keystore/release.jks
+
